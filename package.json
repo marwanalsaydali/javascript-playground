@@ -1,0 +1,24 @@
+{
+  "name": "javascript-playground-conva",
+  "version": "1.0.0",
+  "description": "Playing with JavaScripts and Conva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwanalsaydali/javascript-playground-conva.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Marwan Alsaydali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marwanalsaydali/javascript-playground-conva/issues"
+  },
+  "homepage": "https://github.com/marwanalsaydali/javascript-playground-conva#readme"
+}
