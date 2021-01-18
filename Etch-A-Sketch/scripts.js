@@ -69,4 +69,5 @@ function shakeIt() {
 }
 // listen for arrow key
 window.addEventListener("keydown", handleKey);
+// listem for button clicks
 shakeButton.addEventListener("click", shakeIt);
