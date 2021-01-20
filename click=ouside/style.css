@@ -8,6 +8,11 @@
   --box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   min-height: 100vh;
   background-color: var(--bg-color-darker);
@@ -54,4 +59,31 @@ body {
 }
 .card * {
   margin: 0;
+}
+.module-outter {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  /* hiding this till we need  */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.module-outter.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.module-inner {
+  width: 50%;
+  height: 50vh;
+  background-color: var(--bg-color-lighter);
+  border-radius: var(--radius);
+  box-shadow: var(--box-shadow);
 }
