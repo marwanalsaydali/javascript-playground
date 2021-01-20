@@ -28,4 +28,30 @@ body {
 }
 .card {
   background-color: var(--bg-color-lighter);
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--radius);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.card h3 {
+  text-align: center;
+  background-color: var(--bg-color-darker);
+  padding: 10px 0;
+}
+.card button {
+  width: 100%;
+  color: var(--bg-color-darker);
+  background-color: var(--font-color-darker);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  outline: none;
+  border: 0;
+}
+.card * {
+  margin: 0;
 }
