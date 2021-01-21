@@ -33,9 +33,10 @@ body {
 }
 .card {
   background-color: var(--bg-color-lighter);
-  padding: 20px;
+  padding: 10px;
   box-shadow: var(--box-shadow);
   border-radius: var(--radius);
+  cursor: pointer;
 }
 .card img {
   width: 100%;
@@ -62,7 +63,7 @@ body {
 }
 .module-outter {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   display: flex;
@@ -77,13 +78,17 @@ body {
   transition: opacity 0.2s;
 }
 .module-outter.open {
-  opacity: 1;
+  opacity: 1 !important;
   pointer-events: all;
 }
 .module-inner {
-  width: 50%;
-  height: 50vh;
+  padding: 10px;
+  width: 30%;
   background-color: var(--bg-color-lighter);
   border-radius: var(--radius);
   box-shadow: var(--box-shadow);
+}
+
+.module-inner img {
+  width: 100%;
 }
